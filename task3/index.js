@@ -19,9 +19,7 @@ function compator(a, b) {
 }
 
 function sortNumberArrayByHole(numberArray) {
-    const newNumberArray = [...numberArray];
-    const sortedNewNumberArray = newNumberArray.sort(compator);
-    return sortedNewNumberArray;
+    return numberArray.sort(compator);
 }
 
-console.log(sortNumberArrayByHole([1,2,3,4,44,55,66,9]));
+console.log(sortNumberArrayByHole([1, 2, 3, 4, 44, 55, 66, 9]));
