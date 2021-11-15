@@ -19,7 +19,7 @@ function compator(a, b) {
 }
 
 function sortNumberArrayByHole(numberArray) {
-    return numberArray.sort(compator);
+    return [...numberArray].sort(compator);
 }
 
 console.log(sortNumberArrayByHole([1, 2, 3, 4, 44, 55, 66, 9]));

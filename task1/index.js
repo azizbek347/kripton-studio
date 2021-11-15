@@ -13,8 +13,8 @@ function getStatistics(marks) {
     let avgMarkResult = 0;
     let highestMark = marks[0].avgMark;
     let lowestMark = marks[0].avgMark;
-    let highestMarkOwner;
-    let lowestMarkOwner;
+    let highestMarkOwner = marks[0].name;
+    let lowestMarkOwner = marks[0].name;
 
     marks.forEach(({ avgMark, name }) => {
         avgMarkResult += avgMark;
